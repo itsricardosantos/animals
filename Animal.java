@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal {
+public abstract class Animal {
     private int age;
     private int humanYears;
     private String noise;
@@ -9,13 +9,11 @@ public class Animal {
         this.age = age;
     }
 
-    public void humanYears() {
-    }
+    public abstract void humanYears();
 
     public int getAge() {
         return age;
     }
 
-    public void makeNoise() {
-    }
+    public abstract void makeNoise();
 }

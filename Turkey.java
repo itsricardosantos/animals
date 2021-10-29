@@ -17,7 +17,7 @@ public class Turkey extends Animal{
         int max = 1;
         int random = (int) (Math.random() * (max + 1));
         if(random == 0) {
-            System.out.println("*TurkeyNoise.exe has stopped working");
+            System.err.println("*TurkeyNoise.exe has stopped working*");
         } else {
             System.out.println("Gluglugluglu!");
         }
